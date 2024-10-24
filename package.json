@@ -1,35 +1,61 @@
 {
   "name": "json-helper",
   "version": "3.0.0",
-  "description": "",
+  "description": "A library that provides utility functions for traversing and manipulating JSON data.",
   "main": "dist/json-helper.umd.js",
   "module": "dist/json-helper.es.js",
+  "types": "dist/types/json-helper.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/json-helper.es.js",
+      "require": "./dist/json-helper.umd.js"
+    }
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && tsc",
     "test": "jest",
     "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dabeng/json-helper.git"
+    "url": "git+https://github.com/dormammuuuuu/json-helper.git"
   },
   "keywords": [
     "json",
-    "loop"
+    "loop",
+    "json-lookup",
+    "json-helper",
+    "json-traversal",
+    "data-manipulation",
+    "tree-structure",
+    "nested-data",
+    "hierarchical-data",
+    "node-search",
+    "json-utils",
+    "json-tree",
+    "json-data-structure",
+    "json-query",
+    "json-node-management"
   ],
-  "author": "dabeng",
+  "author": "Jerico Victoria",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dabeng/json-helper/issues"
+    "url": "https://github.com/dormammuuuuu/json-helper/issues"
   },
-  "homepage": "https://github.com/dabeng/json-helper#readme",
+  "homepage": "https://github.com/dormammuuuuu/json-helper#readme",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
     "prettier": "^3.3.3",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
     "vite": "^5.4.10"
   }
 }
