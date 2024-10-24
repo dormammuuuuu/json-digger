@@ -8,7 +8,8 @@
   "exports": {
     ".": {
       "import": "./dist/json-helper.es.js",
-      "require": "./dist/json-helper.umd.js"
+      "require": "./dist/json-helper.umd.js",
+      "types": "./dist/types/index.d.ts"
     }
   },
   "files": [
