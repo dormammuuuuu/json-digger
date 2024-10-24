@@ -1,10 +1,10 @@
 {
   "name": "@dormammuuuuu/json-helper",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A library that provides utility functions for traversing and manipulating JSON data.",
   "main": "dist/json-helper.umd.js",
   "module": "dist/json-helper.es.js",
-  "types": "dist/types/json-helper.d.ts",
+  "types": "dist/types/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/json-helper.es.js",
