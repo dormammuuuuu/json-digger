@@ -27,7 +27,11 @@ npm install json-helper
 ## Usage
 
 ```ts
-import { JSONHelper } from 'json-helper';
+ <!-- ES6 -->
+import { JSONHelper } from '@dormammuuuuu/json-helper';
+
+<!-- CommonJS -->
+const { JSONHelper } = require('@dormammuuuuu/json-helper');
 
 const datasource = {
   pk: '1',
